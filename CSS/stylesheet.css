@@ -1,0 +1,345 @@
+/* Global Styling */
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+    background: #f9f8f8;
+    border: 0;
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, p, a, label {
+    font-family: "Open Sans";
+}
+
+button {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    transition: .2s;
+}
+
+button:hover {
+    opacity: .7;
+}
+
+.content {
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+}
+.wrapper {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 75%;
+}
+
+table { border-collapse: collapse; }
+th, td { padding: 5px 15px; }
+td button { margin: 0; }
+
+input, textarea {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+/* End Global Styling */
+
+/* Login */
+.login {
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 20px;
+    max-width: 300px;
+    width: 100%;
+    padding: 30px 25px;
+    background: white;
+    border: 2px white solid;
+    border-radius: 4px;
+    display: table;
+    box-shadow: 0 0 15px 1px rgba(0,0,0,.1);
+}
+
+.title {
+    margin: 0 5px;
+    text-align: center;
+    color: #2DBC6A;
+}
+
+.topleft {
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+}
+
+label {
+    display: inline-block;
+}
+#username, #password {
+    /* display: inline-block; */
+    width: 100%;
+    font-size: 14px;
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 2px;
+    border: 1px solid #dbdbdb;
+}
+
+button {
+    background-color: #2DBC6A;
+    border: 2px solid #2DBC6A;
+    border-radius: 2px;
+    color: white;
+    width: 100%;
+    padding: 2px 5px;
+    font-size: 16px;
+}
+button.approveButton, .approveButton {
+    background-color: #28A745;
+    border: 2px solid #28A745;
+}
+button.denyButton, .denyButton {
+    background-color: #DC3545;
+    border: 2px solid #DC3545;
+}
+
+button.viewButton, .viewButton {
+    background-color: #b7c0cf;
+    border: 2px solid #b7c0cf;
+}
+
+button.searchButton {
+    background-color: #007BFF;
+    border: 2px solid #007BFF;
+    width: auto;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+button.editUser {
+    background-color: #5FA2B8;
+    border: 2px solid #5FA2B8;
+    width: auto;
+}
+button.deleteUser {
+    background-color: #DC3545;
+    border: 2px solid #DC3545;
+    width: auto;
+}
+
+.adminTable td {
+    width: 100%;
+}
+
+.searchbar {
+    padding-left: 5px;
+    font-size: 16.5px;
+}
+
+.searchForm {
+    margin-bottom: 10px;
+}
+
+.userRole {
+    font-size: 14px;
+    text-align: center;
+}
+.userRole label {
+    cursor: pointer;
+}
+
+.manager {
+    background-color: orange;
+}
+
+.license {
+    color: grey;
+    text-align: center;
+}
+
+
+/* End Login */
+
+
+/*Beginiing of banner*/
+
+.navigation {
+    overflow: hidden;
+}
+
+.navigation.menu1 {
+    background-color: #333;
+}
+
+.navigation.menu2 {
+    background-color: blue;
+}
+
+.navigation.menu3 {
+    background-color: red;
+}
+
+
+
+/* Style the links inside the navigation bar */
+.navigation a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.navigation a:hover {
+    background-color: #2DBC6A;
+    color: black;
+}
+
+/* Add a color to the active/current link */
+.navigation a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+/*for the create*/
+
+.form {
+    background: -webkit-linear-gradient(bottom, #CCCCCC, #EEEEEE 175px);
+    background: -moz-linear-gradient(bottom, #CCCCCC, #EEEEEE 175px);
+    background: linear-gradient(bottom, #CCCCCC, #EEEEEE 175px);
+    position: relative;
+    width: 100%;
+    /* height: 100%; */
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 24px;
+    /* font-weight: bold; */
+    color: #09C;
+    text-decoration: none;
+    padding: 10px;
+    border: 1px solid #999;
+    border: inset 1px solid #333;
+    /* border-radius: 10px; */
+    /* -webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3); */
+    /* -moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3); */
+    /* box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3); */
+}
+
+.form input{
+    width: 100%;
+    display: block;
+    border: 1px solid #999;
+    height: 25px;
+    padding-left: 5px;
+    /* -webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3); */
+    /* -moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3); */
+    /* box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3); */
+}
+
+.form textarea{
+    width: 100%;
+    height: 150px;
+    padding: 5px;
+}
+
+.HomeBackground{
+    width:100vw;
+}
+
+/* For Invoice Below */
+
+.invoice-box {
+        max-width: 800px;
+        margin: auto;
+        padding: 30px;
+        border: 1px solid #eee;
+        box-shadow: 0 0 10px rgba(0, 0, 0, .15);
+        font-size: 16px;
+        line-height: 24px;
+        font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif;
+        color: #555;
+    }
+    
+    .invoice-box table {
+        width: 100%;
+        line-height: inherit;
+        text-align: left;
+    }
+    
+    .invoice-box table td {
+        padding: 5px;
+        vertical-align: top;
+    }
+	
+    .invoice-box table tr.top table td {
+        padding-bottom: 20px;
+    }
+    
+    .invoice-box table tr.top table td.title {
+		width: 300px;
+        font-size: 45px;
+        line-height: 45px;
+        color: #333;
+    }
+	
+	.invoice-box table tr.top table td.info {
+		width: 200px;
+       text-align: left;
+	   
+    }
+    
+    .invoice-box table tr.information table td {
+        padding-bottom: 40px;
+    }
+    
+    .invoice-box table tr.heading td {
+        background: #eee;
+        border-bottom: 1px solid #ddd;
+        font-weight: bold;
+    }
+    
+    .invoice-box table tr.item td{
+        border-bottom: 1px solid #eee;
+    }
+    
+    .invoice-box table tr.total td:nth-child(5) {
+        border-top: 2px solid #eee;
+        font-weight: bold;
+    }
+       
+    .invoice-box table tr.information table td {
+        width: 100%;
+        display: block;
+        text-align: center;
+    }
+    
+   /*For Completed Requests Table*/
+   .completedRequests table{
+	   text-align: left;
+	   background: -webkit-linear-gradient(bottom, #CCCCCC, #EEEEEE 175px);
+		background: -moz-linear-gradient(bottom, #CCCCCC, #EEEEEE 175px);
+		background: linear-gradient(bottom, #CCCCCC, #EEEEEE 175px);
+		position: relative;
+		width: 100%;
+		/* height: 100%; */
+		font-family: Tahoma, Geneva, sans-serif;
+		font-size: 14px;
+		font-style: italic;
+		line-height: 24px;
+		/* font-weight: bold; */
+		color: #09C;
+		text-decoration: none;
+		padding: 10px;
+		border: 1px solid #999;
+		border: inset 1px solid #333;
+   }
+   
+   /*For text area on Create Request*/
+  textarea {
+  resize: none;
+}
